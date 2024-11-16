@@ -5,7 +5,7 @@ if [[ -z "$1" ]]; then
 	exit 1
 fi
 
-if [[ ! "$1" =~ ^(http|https|git)(:\/\/|@)([^\/:]+)[\/:]([^\/:]+)\/(.+).git$ ]]; then
+if [[ ! "$1" =~ ^(http|https|git)(:\/\/|@)([^\/:]+)[\/:]([^\/:]+)\/(.+)$ ]]; then
 	echo "First argument must be a git repository URL"
 	exit 1
 fi
