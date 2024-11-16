@@ -8,6 +8,11 @@ https://hub.docker.com/r/liqsuq/francinette
 $ docker run -it --rm -v {SOURCE PATH}:/src liqsuq/francinette [FRANCINETTE OPTS ...]
 ```
 
+ex:
+```
+$ docker run -it --rm -v .:/src liqsuq/francinette
+```
+
 ## Restrictions
 - Not all testers have been checked. Perhaps It will missing a package. The checks will come with my learning progress.
 
