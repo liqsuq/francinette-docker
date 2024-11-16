@@ -5,12 +5,12 @@ https://hub.docker.com/r/liqsuq/francinette
 
 ## Usage
 ```
-$ docker run -it --rm -v {SOURCE PATH}:/src liqsuq/francinette [FRANCINETTE OPTS ...]
+docker run -it --rm -v {SOURCE PATH}:/src liqsuq/francinette [FRANCINETTE OPTS ...]
 ```
 
 ex:
 ```
-$ docker run -it --rm -v .:/src liqsuq/francinette
+docker run -it --rm -v .:/src liqsuq/francinette
 ```
 
 ## Restrictions
